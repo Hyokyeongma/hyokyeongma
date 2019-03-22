@@ -1,0 +1,88 @@
+/* Tab */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .product-title p {
+        margin-top: 90px
+    }
+    .logo-area {
+        font-size: 38px;
+    }
+    .wrapper-fixed-height {
+        height: 700px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    /* #menu is the original menu */
+    .with-img-bg .wrapper {
+        background-image: url("../img/Golden-Uber-Mobile.png");
+        background-position: right bottom;
+    }
+    .wrapper-fixed-height {
+        height: 100%;
+    }
+	.main-menu {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+    }
+    .logo-area {
+        font-size: 30px;
+    }
+    .mobile-menu-trigger {
+        display: inline-block !important;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .slicknav_btn {
+        display: none;
+    }
+    .slicknav_menu {
+        padding: 0;
+    }
+    .insta-logo {
+        margin-top: 0px;
+    }
+    .header-area {
+        padding: 25px 0;
+    }
+    .product-title.odd {
+        text-align: left
+    }
+    .content-area {
+        padding: 0
+    }
+    .product-title p {
+        padding: 0 10px 10px 20px;
+        margin-top: 0;
+    }
+    .product-title {
+        text-align: left;
+    }
+    .product-image {
+        margin-bottom: 40px;
+    }
+    .popup-content {
+        margin-top: 12px;
+    }
+    .wrapper {
+        padding: 0;
+        background-position: right top;
+    }
+    .footer-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content-area h2 {
+        font-size: 36px;
+    }
+    .safary-only .product-title {
+        min-height: inherit
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
