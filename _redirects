@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://hyokyeongma.netlify.com/* http://www.hyokyeongma.com/:splat 301!
